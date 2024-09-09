@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+:host {
+  --w3m-accent-color: #333333; /* Change the primary color to a dark gray */
+  --w3m-background-color: #1a1a1a; /* Change the background color to an even darker shade */
+  --w3m-font-color: #ffffff; /* Ensure the font color is white for better readability */
+  --w3m-button-border-color: #444444; /* Button border color */
+}
+
+/* App.css */
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid #444444;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #a9c9d6;
+  color: #ffffff;
+  width: 300px;
+  margin: 50px auto;
+}
+
+.w3m-button {
+  margin-top: 10px;
+}

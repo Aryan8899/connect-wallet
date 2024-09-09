@@ -10,10 +10,16 @@
     "@types/node": "^16.18.104",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "@web3modal/ethers5": "^5.0.11",
+    "@web3modal/react": "^2.7.1",
+    "@web3modal/wagmi": "^3.5.0",
+    "ethers": "^5.7.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
-    "typescript": "^4.9.5",
+    "typescript": "^5.5.4",
+    "viem": "^1.19.11",
+    "wagmi": "^1.4.10",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
